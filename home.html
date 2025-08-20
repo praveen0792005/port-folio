@@ -1,25 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+</head>
+<body>
+    <h3> WELCOME</h3>
+    
+    <a href="setting.html" target="_blank" class="settings-btn">
+      <i class="fas fa-cog"></i>
+    </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        
-        for (int i = 0; i < t; i++) {
-            int m = sc.nextInt();
-            if (m >= 91 && m <= 100)
-                System.out.println("A");
-            else if (m >= 81)
-                System.out.println("B");
-            else if (m >= 71)
-                System.out.println("C");
-            else if (m >= 61)
-                System.out.println("D");
-            else if (m >= 51)
-                System.out.println("E");
-            else
-                System.out.println("F");
+    <style>
+    
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background:linear-gradient(to right,rgb(107, 231, 240), #090cc9);
         }
+
+        img {
+            max-width: 150px;
+            height: auto;
+            
+        }
+      
+          header {
+          background:linear-gradient(to right,grey, #06e1f1);
+          color: rgb(226, 226, 226);
+          padding: 15px 25px;
+    margin: 10px 500px;
+    font-weight: bold;
+    border-radius: 4px;
+    user-select: none;
+          text-align: center;
+        }
+    
+        nav {
+          
+    padding: 15px 25px;
+    margin: 0 300px;
+    font-weight: bold;
+    border-radius: 4px;
+    user-select: none;
+    text-align: center;
+        }
+        button {
+          padding: 10px 14px;
+          border-radius: 8px;
+          
+          background: linear-gradient(#18c5c5,rgb(88, 87, 87));
+          color: #e9e9e9;
+         font-size: 14px;
+         cursor: pointer;
+        }
+        button:hover {
+    background:linear-gradient( #0ce07d,rgb(204, 106, 106));
+     
+  }
+  select:hover {
+       background:linear-gradient( #18ee18,rgb(7, 206, 241));
+       transition: background-color 0.4s center, transform 0.3s ease-in-out;
+       
+     }
+     h1 {
+            font-size: 3rem;
+           
+            color: #fff7f7;
+            text-shadow: 0 0 10px #ff0bff, 0 0 20px #b61a7a, 0 0 30px #d3247b;
+        }
+        a {
+            font-size: 3rem;
+           
+            color: #ffffff;
+            text-shadow: 0 0 10px #ff0bff, 0 0 20px #3c1ab6, 0 0 30px #3c54a1;
+        }
+
+  a {
+            background: none;
+            border: 2px solid #ff00de;
+            
+            font-size: 1.2rem;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 100px;
+            box-shadow: 0 0 10px #0400ff, 0 0 20px #4c00ff;
+        }
+        a:hover {
+            background-color: #00ffd5;
+            box-shadow: 0 0 20px #48ff00, 0 0 40px #ff0000, 0 0 60px #ff00de;
+            transform: scale(1.50);
+        }
+        nav a {
+          color: rgb(177, 162, 162);
+          text-decoration: none;
+          margin: 0 15px;
+          
+        }
+    
+        nav a:hover {
+          text-decoration: underline;
+        }
+    
+        main {
+          padding: 20px;
+          background:linear-gradient(to right,aqua, rgb(6, 75, 202));
+          min-height: calc(100vh - 100px);
+        }
+        .social-icons a {
+            text-decoration: none;
+            margin: 10px;
+            font-size: 30px;
+            color: #0df5f5;
+        }
+        .social-icons a:hover {
+            color: #18d2f3;
+       }
+        footer {
+          background: #333;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          scroll-padding-inline-end: auto;
+          position: static;
+        }
+        .icon-btn {
+      position: fixed;
+      bottom: 20px;   /* distance from bottom */
+      right: 20px;    /* distance from right */
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #007BFF;
+      color: white;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: background 0.3s;
     }
-}
+    .icon-btn:hover {
+      background: #0056b3;
+    }
+    
+
+    </style>
+    
+     
+    </head>
+    <body>
+    <center><img src="logo.png" alt="GSP Logo"></center>
+      <header>
+       
+      
+        
+      
+        <h1>GSP</h1>
+      </header>
+    <a href=""></a>
+      <nav page ><center>
+        <a href="home.html" class="active"><button>Home</button ></a>
+        <a href="login.html"><button>login</button></a>
+        <a href="service.html"><button>Services</button></a>
+        <a href="contact.html"><button>Contact</button></a>
+        <a href="order.html"><button>Order</button></a>
+      </center>
+      <button class="icon-btn">
+      <i class="fas fa-plus"></i>
+    </button>
+    </nav>
+      
+   
+     
+      <main>
+        <h2>GSP </h2>
+        <p>
+            THE ALL OVER INDIA transportTransport, or transportation, is the movement of people or goods from one place to another.
+        It encompasses various modes like air, land (road and rail), water, and pipelines, as well as the infrastructure, vehicles, and operations involved. Transport is fundamental to human civilization, enabling trade, and facilitating the movement of goods and people.
+       
+        </p> 
+        <div class="content">
+         
+          <p>This is your main home screen content.</p>
+        </div>
+      
+      
+        <div id="settingsMenu" class="settings-menu">
+          <a href="#">🔗 Connect</a>
+          <a href="#">⚙️ Preferences</a>
+          <a href="#">🔒 Logout</a>
+        </div>
+      
+      
+     </main>
+     <flux>
+      
+     </flux>
+      <footer>    
+        
+       <p>> help </p>
+       <p>>  pac.transport&gmail.com </p>
+       <p>&copy; 2025 GSP. All rights reserved.</p>
+       <p>>  support with us    </p>
+       <p> >  copy right        </p>
+       <p>&copy; contact us </p>
+       <h2>Follow Us</h2>
+       <div class="social-icons">
+           <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+           <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+       </div>
+       
+      </footer>
+</body>
+</html>
+

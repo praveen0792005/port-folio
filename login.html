@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  
+  <style> 
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right ,grey, rgb(3, 224, 253));
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(235, 7, 26, 0.829);
+
+  }
+  h1 {
+            font-size: 3rem;
+           
+            color: #fff7f7;
+            text-shadow: 0 0 10px #ffb20b, 0 0 20px #fa7407, 0 0 30px #d38724;
+        }
+  body{
+    background: linear-gradient(to right ,rgb(21, 234, 241), rgb(3, 28, 253));
+  }
+  img {
+            max-width: 250px;
+            height: auto;
+            
+           
+        } 
+
+        button {
+          padding: 10px 14px;
+          border-radius: 8px;
+          
+          background: #18c5c5;
+          color: #e9e9e9;
+         font-size: 14px;
+         cursor: pointer;
+        }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+   text-transform: lowercase;
+   cursor: pointer;
+  }
+  
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4aaa67;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+   background: linear-gradient(to right ,white, grey); 
+   cursor: pointer;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3844cf;
+    outline: none;
+    box-shadow:paleturquoise;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.3s ease-in-out;
+  }
+  div {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    align: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.3s ease-in-out;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #d7d8d8;
+    color: rgb(7, 205, 250);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+  }
+  button:hover {
+    background:linear-gradient( #00a2ff,red);
+  }
+  select:hover {
+       background:linear-gradient( #00a2ff,rgb(148, 113, 113));
+    }
+   input[type="submit"]:active {
+      box-shadow: 0 0 60px 10px #ff4800; 
+      transform: scale(1.1);
+    }
+    input[type="submit"]:hover {
+      background:linear-gradient( #0400ff,rgb(122, 27, 199));
+      background-color: #d80d0d;
+    color: white;
+    padding: 25px 20px;
+    border: crimson;
+    margin: 10px;
+
+    transition: background-color 0.4s center, transform 0.3s ease-in-out;
+    border-radius: 50px;
+    font-size:2rem;
+   } 
+        </style>
+</head>
+
+<body>
+  <form>
+    <center><img src="logo.png" alt="GSP Logo"></center>
+    <h1> PRAVEEN & CO </h1>
+
+    
+
+ <label>user name</label>     
+<input type="user name" placeholder="user name"><br>
+<label>password</label>
+<input type="password" placeholder="password"><br>
+<label>email</label>
+<input type="email" placeholder="email"><br>
+<label > mobile number</label>
+<input type="mobile number" placeholder="mobile number"><br>
+<label >age </label>
+<input type="age" placeholder="age" min="1" max="10"><br>
+
+<label>Department:</label> 
+
+<select>
+<option>select</option>
+<option>CSE</option>
+<option>EEE</option> 
+<option>ECE</option>
+<option>IT</option>
+<option>AIDS</option>
+<option>CYS</option>
+<option>MECH</option>
+<option>CIVIL</option>
+<option>AGRI</option>
+<option>BIOMEDICAL</option>
+<option>BIOTECH</option>
+</select><br><br>
+
+<label>save information</label> 
+<input type="checkbox" checkbox><br>
+<input type="radio" name="anyone" >male
+<input type="radio" name="anyone">female
+<input type="radio" name="anyone" >other<br>
+<input type="date"><br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<input type="submit" :active>
+
+</form>
+</body>
+</html>
